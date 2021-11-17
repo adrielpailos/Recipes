@@ -51,10 +51,10 @@ export function Main(){
   return(
     <S.Container>
       <S.LatestRC>
-        <span>
+        <S.TitleLastest>
           <h2>{titlelastest}</h2>
-        </span>
-        <nav>
+        </S.TitleLastest>
+        <S.NavRC>
           <ul>
             <div>
               <figure>
@@ -81,8 +81,17 @@ export function Main(){
               </span>
             </div>
           </ul>
-        </nav>
+        </S.NavRC>
       </S.LatestRC>
+      <div>
+        <figure>
+          <img src={backmain}/>
+        </figure>
+        <div>
+          <h2></h2>
+          <p></p>
+        </div>
+      </div>
     </S.Container>
   )
 }
