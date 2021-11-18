@@ -83,15 +83,25 @@ export function Main(){
           </ul>
         </S.NavRC>
       </S.LatestRC>
-      <div>
+      <S.AboutSection>
         <figure>
-          <img src={backmain}/>
+          <img src={backmain.url}/>
         </figure>
         <div>
-          <h2></h2>
-          <p></p>
+          <span>
+            <h2>{aboutsubtitle}</h2>
+            <p>{aboutparagraph}</p>
+          </span>
         </div>
-      </div>
+      </S.AboutSection>
+      <S.SubsSection>
+        <div>
+          <h2>{subscribesubtitle}</h2>
+          <p>{subtitldescript}</p>
+          <input type="email" placeholder="Your email"/>
+          <button>{btnsubmit}</button>
+        </div>
+      </S.SubsSection>
     </S.Container>
   )
 }

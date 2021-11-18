@@ -58,3 +58,82 @@ export const NavRC = styled.div`
         justify-content:center;
     }
 `;
+
+/////////////////////////////
+export const AboutSection = styled.section`
+    display:flex;
+
+    img{
+        width:100%;
+    }
+    figure{
+        height:42rem;
+        width:50vw;
+    }
+    div{
+     
+        width:50vw;
+        display:flex;
+        align-items:center;
+        justify-content:center;
+    }
+    span{
+        width:70%;
+        height:60%;
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        flex-direction:column;
+    }
+    h2{
+        height:20%;
+        font-size:2rem;
+        text-transform:uppercase;
+    }
+    p{
+        margin:1rem;
+        font-size:1.25rem;
+        
+    }
+`;
+export const SubsSection = styled.section`
+    background:#00000029;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    height:20rem;
+    div{
+        width:30rem;
+        height:15rem;
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        flex-direction:column;
+    }
+    h2{
+        margin:0.25rem;
+        text-transform:uppercase;
+        font-weight:lighter;
+    }
+    p{
+        margin:0.25rem;
+        font-size:1.10rem;
+    }
+    input{
+        background:#EFF1EE;
+        margin:0.25rem;
+        height:3rem;
+        width:19rem;
+        border:none;
+        padding:0.5rem;
+    }
+    button{
+        margin:0.25rem;
+        background:none;
+        font-size:0.8rem;
+        text-transform:uppercase;
+        height:2rem;
+        width:7rem;
+        border:solid 2px;
+    }
+`;
