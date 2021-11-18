@@ -47,13 +47,19 @@ export const NavBar = styled.nav`
         justify-content:space-around;
     }
     button{
+        display:flex;
+        align-items:center;
+        justify-content:center;
         font-size:1rem;
         display:flex;
+        width:8rem;
+        height:3rem;
         background:none;
         border:none;
         text-transform:uppercase;
         &:hover{
-            color:rgba(110,110,110.1);
+            border:solid 3px black;
+
         }
     }
 `;

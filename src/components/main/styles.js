@@ -20,6 +20,16 @@ export const TitleLastest = styled.div`
         flex-direction:column-reverse;
         font-size:2rem;
         text-transform:uppercase;
+        position:relative;
+        &::after{
+            content:"";
+            position: absolute;
+            left: 33%;
+            bottom: -1.25rem;
+            background: rgb(55, 55, 55);
+            width: 6rem;
+            height: 3px;
+        }
     }
 `;
 export const NavRC = styled.div`
@@ -39,7 +49,6 @@ export const NavRC = styled.div`
         margin-bottom:8rem;
     }
     div{
- 
         width:20rem;
         background:#fff;
         display:flex;
@@ -56,6 +65,18 @@ export const NavRC = styled.div`
         display:flex;
         align-items:center;
         justify-content:center;
+    }
+    h3{
+        position:relative;
+        &::before{
+            content:"";
+            position: absolute;
+            left: 35%;
+            bottom: 3rem;
+            background: rgb(55, 55, 55);
+            width: 2.5rem;
+            height: 3px;
+        }
     }
 `;
 
@@ -89,6 +110,16 @@ export const AboutSection = styled.section`
         height:20%;
         font-size:2rem;
         text-transform:uppercase;
+        position:relative;
+        &::after{
+            content:"";
+            position: absolute;
+            left: 24.5%;
+            bottom: 1.9rem;
+            background: rgb(55, 55, 55);
+            width: 3.8rem;
+            height: 3px;
+        }
     }
     p{
         margin:1rem;
